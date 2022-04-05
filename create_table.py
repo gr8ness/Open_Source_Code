@@ -1,6 +1,6 @@
 import boto3
 
-#creates table with partition and sort key, atttributes and provision throughput
+#creates table with partition and sort key, attributes and provision throughput
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
 
 table = dynamodb.create_table(
