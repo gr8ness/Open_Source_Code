@@ -10,3 +10,6 @@
     'year': 2008,
     'title': "Iron Man",
     })
+    
+    #prints the item that was created
+    print(response) 
